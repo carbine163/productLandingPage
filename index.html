@@ -14,7 +14,84 @@
 </head>
 
 <body>
+  <div class="logo-box"></div>
+  <header class="heading">
+    <p>carbine</p>
+    <p>workstation</p>
+    <p>Just say it</p>
+  </header>
+  <h1>Lets make workstation simple</h1>
 
+  <form action="" method="post" class="form">
+    <section class="rows">
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Alex Shaw" required name="username" class="input">
+      </div>
+
+      <div>
+        <label for="workstation">workstation name</label>
+        <input type="text" id="workstation" placeholder="ex. ANTON" required name="workstation-name" class="input">
+      </div>
+
+      <div>
+        <label for="duration">duration</label>
+        <select name="duration" id="duration" required class="input">
+          <!-- <option value="default"></option> -->
+          <option value="30">30 Days</option>
+          <option value="45">60 Days</option>
+          <option value="180">180 Days</option>
+        </select>
+        <p>* Mandatory to select number of days</p>
+      </div>
+
+    </section>
+
+    <section class="rows">
+
+      <div>
+        <label for="firm-type">Firm Type</label>
+        <select name="firm-type" id="firm-type" required class="input">
+          <!-- <option value="default"></option> -->
+          <option value="edu">educational sector</option>
+          <option value="mang">management sector</option>
+          <option value="core">core sector</option>
+          <option value="it">It sector</option>
+        </select>
+        <p>* Mandatory to select Firm-Type</p>
+      </div>
+
+
+      <div>
+        <label for="member-type">Membership type</label>
+        <select name="member-type" id="member-type" required class="input">
+          <!-- <option value="default"></option> -->
+          <option value="edu">Early bird special</option>
+          <option value="mang">Silver special</option>
+          <option value="core">gold special</option>
+          <option value="it">platinum special</option>
+        </select>
+      </div>
+
+
+      <div>
+        <label for="date">Date</label>
+        <input type="date" id="date" required name="username" class="input">
+        <p>* Mandatory to select a start date</p>
+      </div>
+
+
+    </section>
+
+    <section class="rows">
+      <button>Submit</button>
+    </section>
+
+
+
+
+  </form>
 </body>
 
 </html>
